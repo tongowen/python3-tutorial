@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="cn">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" type="text/css">
+
+		<title>owen</title>
+	</head>
+
+	<body>
+		<h1>owen</h1>
+		<p>{{name}}</p>
+
+		<img alt="Warriors" class="totoro" src="{{ url_for('static', filename='images/warriors.jpg') }}">
+	</body>
+	
+	<footer>
+		<small>&copy; 2022 <a href="http://github.com/tongowen">owen</a></small>
+	</footer>
+</html>
