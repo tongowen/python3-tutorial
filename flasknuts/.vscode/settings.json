@@ -1,0 +1,11 @@
+{
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"driver": "SQLite",
+			"name": "owen",
+			"database": "${workspaceFolder:flasknuts}/owen.db"
+		}
+	],
+	"sqltools.useNodeRuntime": true
+}
